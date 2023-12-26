@@ -41,6 +41,7 @@ public class LoginPageSteps_PF {
     @And("user clicks on submit button")
     public void userClicksOnSubmitButton() {
         login.clickSubmit();
+        System.out.println("user clicks on submit button");
     }
     @Then("user is navigated to the home page")
     public void userIsNavigatedToTheHomePage() {
